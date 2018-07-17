@@ -1,0 +1,22 @@
+CONFIGURANDO O DESKTOP PARA UMA MAQUINA VIRTUAL
+
+1) Instale o XAMPP
+
+2) Configure a porta 80 do XAMPP para 83
+
+3) Os dois arquivosa "hosts" e "httpd-vhosts.conf" que estão
+citados abaixo, cole nos locais abaixo:
+
+arquivo "hosts"
+C:\Windows\System32\drivers\etc
+
+arquivo "httpd-vhosts.conf"
+C:\xampp\apache\conf\extra
+
+4) Execute o script SQL "db_ecommerce" no PhpMyAdmin ou SGBD MySQL
+
+5) Digite no browser: www.hcodecommerce.com.br:83 pois configurei na
+porta 83
+
+6) www.hcodecommerce.com.br:83/admin será redirecionado para tela de
+login do administrador do site, usuario: admin e senha: admin
